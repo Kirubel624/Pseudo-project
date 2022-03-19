@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import Carousel from 'react-bootstrap/Carousel'
+import { Button } from 'react-bootstrap';
 import './App.css';
+import Home from './components/home/Home';
+import Navbar from './components/navbar/Navbar';
+import { useSelector } from 'react-redux';
+// import {useSelector} from ''
 
 function App() {
+  const light = useSelector(state=>state.mode.light)
+  // console.log(val)
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={light?'App':'App__dark'} >
+      <div className='app__con'>
+        <Home/>
+      </div>
+     
     </div>
   );
 }

@@ -1,0 +1,10 @@
+.carousel{
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+}
+.carousel img{
+   /* width: 400px; */
+   height: 400px;
+   object-fit: contain;
+}

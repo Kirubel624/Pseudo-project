@@ -1,0 +1,379 @@
+
+.home{
+}
+.home__top__con{
+  margin-bottom: -35px;
+  border: 1px solid blue;
+
+}
+.home img{
+  max-width: 500px;
+}
+.home__top{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 70px;
+  align-items: center;
+}
+.home__title,.home__title2{
+  width: 500px;
+}
+.home .home__top1 img{
+  max-width: 700px;
+}
+/*  */
+.home__info {
+
+   background-color: white;
+   padding-bottom: 70px;
+}
+.home__info .home__top2{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 120px;
+  align-items: center;
+  
+  /* border: 1px solid red; */
+}
+.home__title2{
+  width: 400px;
+  /* margin: 0px 200px 0px; */
+  /* margin-right: 350px; */
+  margin: ri;
+}
+.home__top2 img{
+  max-width: 400px;
+}
+.home__title2 h1{
+  font-size: 25px;
+}
+
+
+
+/*  */
+
+.home_getSatrt{
+
+padding: 50px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.home_getSatrt h1{
+  text-align: center;
+  margin-bottom: 50px;
+ 
+  
+}
+.home__getStart__con{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+   
+
+}
+.home__getStart__items{
+  width: 350px;
+  margin: 0 30px;
+}
+.home__getStart__con button{
+  padding: 0;
+  height: 50px;
+  padding: 10px 15px;
+  font-size: 22px;
+  text-align: center;
+  font-weight: bold;
+  margin: 20px 0;
+}
+/* ******************* developers ************ */
+.home__dev__title{
+  color: white;
+  text-align: center;
+  padding-top:50px ;
+  padding-bottom: 20px;
+}
+.home__dev{
+  background-color:#198754 ;
+  /* background-color: #212121; */
+  /* border-radius: 0px 0px 500px 500px; */
+}
+.home__card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/************************ footer  *****************  */
+
+.home__footer{
+  /* padding: 20px; */
+  max-width: 800px;
+  margin: auto
+  
+}
+.home__footer__con{
+  display: flex;
+  justify-content: space-between;
+
+  flex-wrap: wrap;
+  padding: 30px;
+}
+.home__footer__con a{
+  color: rgb(75, 75, 75);
+  text-decoration: none;
+}
+.home__footer__con a:hover{
+  text-decoration: underline;
+}
+.home__footer__con p{
+  padding: 5px ;
+  margin: 0;
+}
+.home__footer__con li{
+  list-style: none;
+}
+.home__footer__con ul{
+  padding: 0;
+    
+}
+.home__footer__con ul p{
+  font-size: 17px;
+    
+}
+.home__footer__con div{
+  margin-right: 40px;
+}
+
+/*  mobile size  */
+/* 1270 */
+ @media only screen and (max-width:1270px) {
+  .home__img{
+     width: 400px;
+  }
+  
+  .home__top{
+    max-width: 800px;
+  }
+  #home__past{
+    width: 300px;
+  }
+  .home__title,.home__title2{
+    width: 300px;
+  }
+  .home .home__top1 img{
+    max-width: 400px;
+  }
+  .home__info .home__top2{
+  max-width: 800px;
+}
+.home__title2{
+  width: 300px;
+}
+.home__top2 img{
+  max-width: 300px;
+}
+  
+} 
+/* 850 */
+@media only screen and (max-width:850px) {
+  .home__top{
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+    align-items: center;
+  }
+  .home__title{
+    width: 500px;
+  }
+  .home__img{
+    width: 600px;
+ }
+ 
+ .home .home__top1 img{
+  max-width: 600px;
+}
+ #home__past{
+   width: 500px;
+   padding-left: 40px;
+   text-align: center;
+ }
+ .home__top__con{
+  margin-bottom: 30px;
+}
+.home__title5 h1{
+  padding-top: 40px;
+}
+.home__title2{
+  width: 450px;
+}
+.home__info .home__top2{
+  min-width: 400px;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  align-items: center;
+  
+  /* border: 1px solid red; */
+}
+.home__info .home__top2__right{
+   flex-direction: column;
+}
+.home__top2 img{
+  max-width: 450px;
+}
+  
+} 
+@media only screen and (max-width:610px) {
+  .home__img{
+     width: 400px;
+  }
+  
+  .home__top{
+    max-width: 480px;
+  }
+  #home__past{
+    width: 300px;
+  }
+  .home__title,.home__title2{
+    
+    width: 300px;
+  }
+  .home__title h1,.home__title2 h1{
+    font-size: 19px;
+    width: 200px;
+  }
+  .home__title p,.home__title2 p{
+    font-size: 13px;
+  }
+  .home .home__top1 img{
+    max-width: 400px;
+  }
+  .home__info .home__top2{
+  max-width: 800px;
+}
+.home__title2{
+  width: 300px;
+}
+.home__top2 img{
+  max-width: 300px;
+}
+  
+} 
+@media only screen and (max-width:406px) {
+ 
+  .home{
+    /* width: 400px; */
+
+  }
+  .home__img{
+     width: 250px;
+  }
+  
+  .home__top{
+    max-width: 300px;
+  }
+  #home__past{
+    width: 200px;
+  }
+  .home__title,.home__title2{
+    
+    width: 220px;
+  }
+  .home__title h1,.home__title2 h1{
+    font-size: 19px;
+    width: 200px;
+  }
+  .home__title p,.home__title2 p{
+    font-size: 13px;
+  }
+  .home .home__top1 img{
+    max-width: 250px;
+  }
+  .home__info .home__top2{
+  min-width: 200px;
+}
+.home__title2{
+  width: 200px;
+}
+.home__top2 img{
+  max-width: 200px;
+}
+.home_getSatrt h1,.home__dev h1 {
+  font-size: 19px;
+}
+.home_getSatrt h3{
+  font-size: 17px;
+}
+.home_getSatrt p,.home__dev p{
+  font-size: 13px;
+}
+
+  
+} 
+
+
+
+/********************* dark *******************************/
+/********************* dark *******************************/
+/********************* dark *******************************/
+/********************* dark *******************************/
+
+
+.home__top__dark{
+  /* color: #198754; */
+  color: white;
+}
+
+/*  */
+.home__info__dark {
+   background-color: #3b3b3b;
+   color: white;
+}
+
+/*  */
+
+.home_getSatrt__dark{
+color: white;
+
+}
+
+
+/* ******************* developers ************ */
+.home__dev__title{
+  color: white;
+  text-align: center;
+  padding-top:50px ;
+  padding-bottom: 20px;
+}
+.home__dev__dark{
+  background-color:#3b3b3b ;
+  /* background-color: #212121; */
+  /* border-radius: 0px 0px 500px 500px; */
+}
+.home__card{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/************************ footer  *****************  */
+
+.home__footer__dark{
+  color: white;
+  
+}
+
+.home__footer__dark .home__footer__con a{
+  color: rgb(168, 168, 168);
+}
