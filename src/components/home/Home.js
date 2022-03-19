@@ -26,8 +26,8 @@ const Home = () => {
    <div className={light?'home__top home__top1':'home__top home__top1 home__top__dark home__top1__dark'}>
         <div className={light?'home__title':'home__title home__title__dark'}>
                 <h1>MKTALENT is your best Choice </h1>
-                <p>We give many service. Join us and make your work apportionty Easier!
-                Transform the way you work with one place for everyone and everything you need to get stuff done.
+                <p>We provide many ways for you to get yourself out there and introduce yourself to the world. Join us and make your work opportunity a little Easier!
+                Grow your portfolio by doing jobs, participating in events and getting rewards.
                 </p>
                 <Button size='lg' style={{marginTop:"30px"}} variant="success">Get start</Button>
             </div>
@@ -51,14 +51,14 @@ const Home = () => {
    <div className={light?'home__info':'home__info home__info__dark'}>
    <div className={light?'home__top2':'home__top2 home__top2__dark'}>
         <div className={light?'home__title2':'home__title2 home__title2__dark'}>
-                <h1>Move fast by join us</h1>
-                <p>We give many service. Join us and make your work apportionty Easier!
+                <h1>Expand your network by joining us</h1>
+                <p>Connect with diffrent companies and grow your network. Join us and make your work opportunity Easier!
                 Transform the way you work with one place for everyone and everything you need to get stuff done.
                 </p>
                 {/* <Button size='lg' style={{marginTop:"30px"}} variant="success">Get start</Button> */}
             </div>
         <div className="home__img2">
-        <img src={FastImg} />
+        <img src={Connection} />
         </div>
    </div>
    <div className='home__top2 home__top2__right'>
@@ -66,24 +66,23 @@ const Home = () => {
         <img src={TimeImg} />
         </div>
         <div className='home__title2 home__title2__right'>
-                <h1>Manage Your company and focus on time </h1>
-                <p>We give many service. Join us and make your work apportionty Easier!
-                Transform the way you work with one place for everyone and everything you need to get stuff done.
-                </p>
+                <h1>Manage Your company by recruiting the right talents you want for a job and focus on time  </h1>
+                <p>The next great talent to make your company shine could just be right around the corner!
+                Transform the way you look for talents one place for everyone and everything you need to get stuff done.
                 {/* <Button size='lg' style={{marginTop:"30px"}} variant="success">Get start</Button> */}
             </div>
         
    </div>
    <div className='home__top2 home__top5'>
         <div className='home__title2'>
-                <h1>Get All in one </h1>
-                <p>We give many service. Join us and make your work apportionty Easier!
-                Transform the way you work with one place for everyone and everything you need to get stuff done.
+                <h1>Get Rewards  </h1>
+                <p>The more jobs you do the more experience you get which adds up to getting amazing rewards!
+                OH! but wait Its not the reward that matters its the road you took to get there the reward is something extra what matters is the person you became after getting to the end of the road.
                 </p>
                 {/* <Button size='lg' style={{marginTop:"30px"}} variant="success">Get start</Button> */}
             </div>
         <div className="home__img2">
-        <img src={ModelImg} />
+        <img src={Rewards} />
         </div>
    </div>
 
@@ -95,17 +94,17 @@ const Home = () => {
        <div className='home__getStart__items'>
        <Button variant='success' >1</Button>
        <h3>Sign up</h3>
-       <p>Create a new Slack workspace in just a few moments. It’s free to try for teams of any size.</p>
+       <p>Create a new account in just a few moments. It’s completly free.</p>
        </div>
        <div className='home__getStart__items'>
        <Button variant='success' >2</Button>
-       <h3>Someting</h3>
-       <p>Create a new Slack workspace in just a few moments. It’s free to try for teams of any size.</p>
+       <h3>Career advancement</h3>
+       <p>Advance your career by joining us. do jobs to get the experience you need.</p>
        </div>
        <div className='home__getStart__items'>
        <Button variant='success' >3</Button>
-       <h3>Try it out</h3>
-       <p>Create a new Slack workspace in just a few moments. It’s free to try for teams of any size.</p>
+       <h3>No Third-party interference</h3>
+       <p>The talent and talent seeker can make a deal on the job without any third party interference.</p>
        </div>
      </div>
    </div>
