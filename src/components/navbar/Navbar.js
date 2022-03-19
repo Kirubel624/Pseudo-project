@@ -19,27 +19,22 @@ const NavbarApp = () => {
   <Navbar.Toggle aria-controls="responsive-navbar-nav" />
   <Navbar.Collapse id="responsive-navbar-nav">
     <Nav className="me-auto">
-      <Nav.Link href="#features">Features</Nav.Link>
-      <NavDropdown title="Priceing" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">first</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Second action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Talent</NavDropdown.Item>
+      <Nav.Link href="#features">News</Nav.Link>
+      <NavDropdown title="Blog" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Talent</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Professional advice</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.3">Companies</NavDropdown.Item>
+       
 
       </NavDropdown>
-      <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
-        <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.2">Another action</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-        <NavDropdown.Divider />
-        <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
-        <NavDropdown.Item href="#action/3.4">Talent</NavDropdown.Item>
+      <NavDropdown title="Talent" id="collasible-nav-dropdown">
+        <NavDropdown.Item href="#action/3.1">Men</NavDropdown.Item>
+        <NavDropdown.Item href="#action/3.2">Women</NavDropdown.Item>
+       
 
       </NavDropdown>
-      <Nav.Link href="#pricing">Talent</Nav.Link>
-
+      <Nav.Link href="#pricing">Development</Nav.Link>
+      <Nav.Link href="#pricing">About</Nav.Link>
     </Nav>
     <Nav className="navbar__left" >
       <Nav.Link  href="#deets"> <SearchIcon/> </Nav.Link>
